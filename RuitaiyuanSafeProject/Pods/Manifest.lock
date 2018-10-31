@@ -1,0 +1,36 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - PLRTCStreamingKit (3.2.0):
+    - PLRTCStreamingKit/iphoneos (= 3.2.0)
+  - PLRTCStreamingKit/iphoneos (3.2.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - PLRTCStreamingKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - PLRTCStreamingKit
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  PLRTCStreamingKit: b411cb6d78ddb018662c5e842a20f73ac7c92fc7
+
+PODFILE CHECKSUM: 189bc5b33b70bb8e729b86fa4b0f55cf0a7d9b65
+
+COCOAPODS: 1.5.3
