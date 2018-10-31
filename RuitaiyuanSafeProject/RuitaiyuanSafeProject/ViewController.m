@@ -51,6 +51,7 @@
     [self.view addSubview:self.session.previewView];
 
     //////
+    ///////初始化播放器
     
     
     NSURL *pushURL = [NSURL URLWithString:@"http://www.baidu.com"];
