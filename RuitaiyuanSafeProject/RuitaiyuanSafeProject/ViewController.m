@@ -50,6 +50,7 @@
     
     [self.view addSubview:self.session.previewView];
 
+    //////
     
     
     NSURL *pushURL = [NSURL URLWithString:@"http://www.baidu.com"];
