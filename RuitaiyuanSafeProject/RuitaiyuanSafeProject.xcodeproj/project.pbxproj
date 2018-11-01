@@ -21,6 +21,7 @@
 		A06C7295218AF12D00AE93ED /* RTYRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A06C7294218AF12D00AE93ED /* RTYRequestHandler.m */; };
 		A06C729B218AF16500AE93ED /* RTYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06C729A218AF16500AE93ED /* RTYHomeViewController.m */; };
 		A06C729E218AF17500AE93ED /* RTYMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06C729D218AF17500AE93ED /* RTYMineViewController.m */; };
+		A06C72A1218AF4C300AE93ED /* RTYHomeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A06C72A0218AF4C300AE93ED /* RTYHomeManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,8 @@
 		A06C729A218AF16500AE93ED /* RTYHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYHomeViewController.m; sourceTree = "<group>"; };
 		A06C729C218AF17500AE93ED /* RTYMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYMineViewController.h; sourceTree = "<group>"; };
 		A06C729D218AF17500AE93ED /* RTYMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYMineViewController.m; sourceTree = "<group>"; };
+		A06C729F218AF4C300AE93ED /* RTYHomeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYHomeManager.h; sourceTree = "<group>"; };
+		A06C72A0218AF4C300AE93ED /* RTYHomeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYHomeManager.m; sourceTree = "<group>"; };
 		FFCD922A3E5A84295A7BF97B /* Pods-RuitaiyuanSafeProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuitaiyuanSafeProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RuitaiyuanSafeProject/Pods-RuitaiyuanSafeProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -164,8 +167,8 @@
 		A06C727A218AEEF400AE93ED /* BusinessLayer */ = {
 			isa = PBXGroup;
 			children = (
-				A06C727B218AEEF400AE93ED /* ProfileItem */,
 				A06C7280218AEEF400AE93ED /* HomeItem */,
+				A06C727B218AEEF400AE93ED /* ProfileItem */,
 			);
 			path = BusinessLayer;
 			sourceTree = "<group>";
@@ -234,6 +237,8 @@
 		A06C7282218AEEF400AE93ED /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				A06C729F218AF4C300AE93ED /* RTYHomeManager.h */,
+				A06C72A0218AF4C300AE93ED /* RTYHomeManager.m */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -398,6 +403,7 @@
 				A06C729E218AF17500AE93ED /* RTYMineViewController.m in Sources */,
 				A06C728E218AEF4A00AE93ED /* RTYBaseController.m in Sources */,
 				A06C729B218AF16500AE93ED /* RTYHomeViewController.m in Sources */,
+				A06C72A1218AF4C300AE93ED /* RTYHomeManager.m in Sources */,
 				A06C7286218AEEF400AE93ED /* main.m in Sources */,
 				A06C7285218AEEF400AE93ED /* ViewController.m in Sources */,
 				A06C7292218AF0E500AE93ED /* RTYTabbarController.m in Sources */,
