@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - MBProgressHUD (1.1.0)
   - MJRefresh (3.1.15.7)
   - PLRTCStreamingKit (3.2.0):
     - PLRTCStreamingKit/iphoneos (= 3.2.0)
@@ -21,26 +22,33 @@ PODS:
   - SDWebImage (4.4.2):
     - SDWebImage/Core (= 4.4.2)
   - SDWebImage/Core (4.4.2)
+  - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
   - AFNetworking
+  - MBProgressHUD (~> 1.1.0)
   - MJRefresh
   - PLRTCStreamingKit
   - SDWebImage (~> 4.0)
+  - SVProgressHUD
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - MBProgressHUD
     - MJRefresh
     - PLRTCStreamingKit
     - SDWebImage
+    - SVProgressHUD
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
   PLRTCStreamingKit: b411cb6d78ddb018662c5e842a20f73ac7c92fc7
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: cd62e5cf99d6e876b2a04c24f2323e6fb36a385e
+PODFILE CHECKSUM: b22a94662883ec76ad3e75ff90c5115e772fce6d
 
 COCOAPODS: 1.6.0.beta.2

@@ -10,6 +10,7 @@
 
 #import <PLRTCStreamingKit/PLRTCStreamingKit.h>
 
+#import <SVProgressHUD/SVProgressHUD.h>
 
 @interface RTYLiveCallViewController ()<PLMediaStreamingSessionDelegate>
 
@@ -32,6 +33,12 @@
     // Do any additional setup after loading the view.
     
     self.title = @"通话";
+    
+    [SVProgressHUD show];
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [SVProgressHUD dismiss];
+    });
     
     
     [self configData];
