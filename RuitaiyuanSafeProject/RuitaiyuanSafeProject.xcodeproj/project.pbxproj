@@ -16,6 +16,7 @@
 		A04AB61B2192E41D00B5D5E6 /* RTYProfileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A04AB61A2192E41D00B5D5E6 /* RTYProfileModel.m */; };
 		A04AB61E2192E43000B5D5E6 /* RTYProfileTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A04AB61D2192E43000B5D5E6 /* RTYProfileTopView.m */; };
 		A04AB6212192E44500B5D5E6 /* RTYProfileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A04AB6202192E44500B5D5E6 /* RTYProfileManager.m */; };
+		A04AB6282192FB7C00B5D5E6 /* RTYLiveCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A04AB6272192FB7C00B5D5E6 /* RTYLiveCallViewController.m */; };
 		A06C7285218AEEF400AE93ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06C726F218AEEF400AE93ED /* ViewController.m */; };
 		A06C7286218AEEF400AE93ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A06C7270218AEEF400AE93ED /* main.m */; };
 		A06C7287218AEEF400AE93ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A06C7271218AEEF400AE93ED /* AppDelegate.m */; };
@@ -48,6 +49,8 @@
 		A04AB6202192E44500B5D5E6 /* RTYProfileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYProfileManager.m; sourceTree = "<group>"; };
 		A04AB6232192E49400B5D5E6 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		A04AB6242192E51900B5D5E6 /* RTYColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYColors.h; sourceTree = "<group>"; };
+		A04AB6262192FB7C00B5D5E6 /* RTYLiveCallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYLiveCallViewController.h; sourceTree = "<group>"; };
+		A04AB6272192FB7C00B5D5E6 /* RTYLiveCallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYLiveCallViewController.m; sourceTree = "<group>"; };
 		A06C726E218AEEF400AE93ED /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A06C726F218AEEF400AE93ED /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A06C7270218AEEF400AE93ED /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -141,6 +144,15 @@
 				A04AB6242192E51900B5D5E6 /* RTYColors.h */,
 			);
 			path = CommonLayer;
+			sourceTree = "<group>";
+		};
+		A04AB6252192FB5D00B5D5E6 /* LiveCall */ = {
+			isa = PBXGroup;
+			children = (
+				A04AB6262192FB7C00B5D5E6 /* RTYLiveCallViewController.h */,
+				A04AB6272192FB7C00B5D5E6 /* RTYLiveCallViewController.m */,
+			);
+			path = LiveCall;
 			sourceTree = "<group>";
 		};
 		A06C726D218AEEF400AE93ED /* Appdelegete */ = {
@@ -250,6 +262,7 @@
 		A06C7280218AEEF400AE93ED /* HomeItem */ = {
 			isa = PBXGroup;
 			children = (
+				A04AB6252192FB5D00B5D5E6 /* LiveCall */,
 				A06C7281218AEEF400AE93ED /* Controller */,
 				A06C7282218AEEF400AE93ED /* Manager */,
 				A06C7283218AEEF400AE93ED /* Model */,
@@ -450,6 +463,7 @@
 				A04AB61B2192E41D00B5D5E6 /* RTYProfileModel.m in Sources */,
 				A06C7292218AF0E500AE93ED /* RTYTabbarController.m in Sources */,
 				A06C7287218AEEF400AE93ED /* AppDelegate.m in Sources */,
+				A04AB6282192FB7C00B5D5E6 /* RTYLiveCallViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

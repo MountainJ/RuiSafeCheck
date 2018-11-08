@@ -8,6 +8,11 @@
 
 #import "RTYHomeViewController.h"
 
+
+#import "RTYLiveCallViewController.h"
+
+
+
 @interface RTYHomeViewController ()
 
 @end
@@ -17,6 +22,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.title = @"首页";
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
+    [button setTitle:@"push next" forState:UIControlStateNormal];
+    button.frame = CGRectMake(0, 0, 120, 44);
+    button.center = CGPointMake(CGRectGetMidX([UIScreen mainScreen].bounds), CGRectGetHeight([UIScreen mainScreen].bounds) - 80);
+    [button addTarget:self action:@selector(actionButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+    
+    
+}
+
+
+- (void)actionButtonPressed:(id)sender {
+
+    RTYLiveCallViewController *livevc = [RTYLiveCallViewController new];
+    [self.navigationController pushViewController:livevc animated:YES];
 }
 
 /*

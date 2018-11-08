@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import <PLRTCStreamingKit/PLRTCStreamingKit.h>
 
+#import "RTYHomeViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -18,9 +20,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [PLStreamingEnv initEnv];
+    
+    
+    [self configThirdBusiness];
+    
+    RTYHomeViewController *homevc = [[RTYHomeViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:homevc];
+    self.window.rootViewController = nav;
+    
+    
     
     return YES;
+}
+
+- (void)configThirdBusiness
+{
+    [PLStreamingEnv initEnv];
+
 }
 
 
