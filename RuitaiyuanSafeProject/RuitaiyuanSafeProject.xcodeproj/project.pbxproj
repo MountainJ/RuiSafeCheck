@@ -32,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		36D69A1CB38424D44D70AFC7 /* Pods-RuitaiyuanSafeProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuitaiyuanSafeProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-RuitaiyuanSafeProject/Pods-RuitaiyuanSafeProject.release.xcconfig"; sourceTree = "<group>"; };
+		64012165219492310072A8B6 /* RTYNetWorkHosts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYNetWorkHosts.h; sourceTree = "<group>"; };
 		86570F2C358B53ADE28FC6C5 /* libPods-RuitaiyuanSafeProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RuitaiyuanSafeProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0096B64218410A200827969 /* RuitaiyuanSafeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuitaiyuanSafeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0096B6E218410A200827969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -180,6 +181,7 @@
 		A06C7275218AEEF400AE93ED /* NetworkLayer */ = {
 			isa = PBXGroup;
 			children = (
+				64012165219492310072A8B6 /* RTYNetWorkHosts.h */,
 				A06C7293218AF12D00AE93ED /* RTYRequestHandler.h */,
 				A06C7294218AF12D00AE93ED /* RTYRequestHandler.m */,
 			);

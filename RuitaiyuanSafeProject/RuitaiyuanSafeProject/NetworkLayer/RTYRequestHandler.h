@@ -8,9 +8,24 @@
 
 #import <Foundation/Foundation.h>
 
+#import "RTYNetWorkHosts.h"
+
+
 NS_ASSUME_NONNULL_BEGIN
 
+typedef void(^SuccessHandle)(id responseObject);
+
+typedef void(^FailureHandle)(NSError * error);
+
 @interface RTYRequestHandler : NSObject
+
++ (instancetype)sharedHandler;
+
+
+- (void)getWithURLString:(NSString *)URLString successHandle:(SuccessHandle)success failureHandle:(FailureHandle)failure;
+
+- (void)postWithURLString:(NSString *)URLString parameters:(NSDictionary *)parameters successHandle:(SuccessHandle)success failureHandle:(FailureHandle)failure;
+
 
 @end
 
