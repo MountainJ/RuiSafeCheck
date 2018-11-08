@@ -59,6 +59,14 @@
 
     
     
+    ////
+    
+    
+    
+    ////
+    
+    
+    
     self.roomName = @"rtytest001";
     self.roomToken = @"YlzitS2Q9HujWU6cvVCiW4stAS8fOETES-iaFWBO:j_N7GKWqzGLIwHMglet-MAXSlUY=:eyJhcHBJZCI6ImR0amE3eWQ5OSIsInJvb21OYW1lIjoicnR5dGVzdDAwMSIsInVzZXJJZCI6ImExMjM0NTY3MDAwIiwiZXhwaXJlQXQiOjE1NDE3NTY2OTgsInBlcm1pc3Npb24iOiJ1c2VyIn0=";
     self.usrId = @"a1234567000";
