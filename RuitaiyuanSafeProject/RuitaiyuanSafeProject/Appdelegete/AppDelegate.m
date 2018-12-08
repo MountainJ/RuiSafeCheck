@@ -36,8 +36,6 @@
     self.window.rootViewController = nav;
     
     
-<<<<<<< HEAD
-=======
     //构造登录的主页面
     
     
@@ -47,7 +45,6 @@
     ////
     
     
->>>>>>> d36d920325cf1baffcc0c95f32892f81b3940128
     return YES;
 }
 
