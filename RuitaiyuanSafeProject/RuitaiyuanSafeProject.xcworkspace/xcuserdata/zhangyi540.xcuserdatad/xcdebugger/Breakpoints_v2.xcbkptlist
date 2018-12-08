@@ -10,93 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RuitaiyuanSafeProject/BusinessLayer/HomeItem/LiveCall/RTYLiveCallViewController.m"
-            timestampString = "563370459.595963"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "116"
-            endingLineNumber = "116"
-            landmarkName = "-mediaStreamingSession:firstVideoFrameDecodedOfUserID:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RuitaiyuanSafeProject/BusinessLayer/HomeItem/LiveCall/RTYLiveCallViewController.m"
             timestampString = "563370459.596303"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "89"
             endingLineNumber = "89"
-            landmarkName = "-actionButtonPressed:"
+            landmarkName = "-configData"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RuitaiyuanSafeProject/BusinessLayer/HomeItem/LiveCall/RTYLiveCallViewController.m"
-            timestampString = "563370459.5965101"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "127"
-            endingLineNumber = "127"
-            landmarkName = "-mediaStreamingSession:rtcDidFailWithError:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RuitaiyuanSafeProject/BusinessLayer/HomeItem/LiveCall/RTYLiveCallViewController.m"
-            timestampString = "563370459.596705"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "134"
-            endingLineNumber = "134"
-            landmarkName = "-mediaStreamingSession:didDisconnectWithError:"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[RTYLiveCallViewController mediaStreamingSession:didDisconnectWithError:]"
-                  moduleName = "RuitaiyuanSafeProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/zhangyi540/Desktop/ruitaiyuan/RuiSafeCheck/RuitaiyuanSafeProject/RuitaiyuanSafeProject/BusinessLayer/HomeItem/LiveCall/RTYLiveCallViewController.m"
-                  timestampString = "563370459.754331"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "134"
-                  endingLineNumber = "134"
-                  offsetFromSymbolStart = "92">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__74-[RTYLiveCallViewController mediaStreamingSession:didDisconnectWithError:]_block_invoke"
-                  moduleName = "RuitaiyuanSafeProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/zhangyi540/Desktop/ruitaiyuan/RuiSafeCheck/RuitaiyuanSafeProject/RuitaiyuanSafeProject/BusinessLayer/HomeItem/LiveCall/RTYLiveCallViewController.m"
-                  timestampString = "563370459.756469"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "135"
-                  endingLineNumber = "135"
-                  offsetFromSymbolStart = "16">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -111,7 +31,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "153"
             endingLineNumber = "153"
-            landmarkName = "-mediaStreamingSession:streamStatusDidUpdate:"
+            landmarkName = "-mediaStreamingSession:didDisconnectWithError:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -127,7 +47,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "158"
             endingLineNumber = "158"
-            landmarkName = "-mediaStreamingSession:rtcStateDidChange:"
+            landmarkName = "-mediaStreamingSession:didDisconnectWithError:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -143,7 +63,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "164"
             endingLineNumber = "164"
-            landmarkName = "-mediaStreamingSession:didJoinConferenceOfUserID:"
+            landmarkName = "-mediaStreamingSession:didDisconnectWithError:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -159,8 +79,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "170"
             endingLineNumber = "170"
-            landmarkName = "-mediaStreamingSession:didLeaveConferenceOfUserID:"
-            landmarkType = "7">
+            landmarkName = "RTYLiveCallViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -72,6 +72,7 @@
 		A06C729D218AF17500AE93ED /* RTYMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYMineViewController.m; sourceTree = "<group>"; };
 		A06C729F218AF4C300AE93ED /* RTYHomeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYHomeManager.h; sourceTree = "<group>"; };
 		A06C72A0218AF4C300AE93ED /* RTYHomeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYHomeManager.m; sourceTree = "<group>"; };
+		A0A70D3021AF8CE100DB2B7F /* RuitaiyuanSafeProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RuitaiyuanSafeProject.entitlements; sourceTree = "<group>"; };
 		FFCD922A3E5A84295A7BF97B /* Pods-RuitaiyuanSafeProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuitaiyuanSafeProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RuitaiyuanSafeProject/Pods-RuitaiyuanSafeProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -163,6 +164,7 @@
 				A06C7271218AEEF400AE93ED /* AppDelegate.m */,
 				A06C7273218AEEF400AE93ED /* ViewController.h */,
 				A06C726F218AEEF400AE93ED /* ViewController.m */,
+				A0A70D3021AF8CE100DB2B7F /* RuitaiyuanSafeProject.entitlements */,
 				A06C7270218AEEF400AE93ED /* main.m */,
 				A06C7272218AEEF400AE93ED /* Info.plist */,
 			);
@@ -362,6 +364,14 @@
 				TargetAttributes = {
 					A0096B63218410A200827969 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -407,7 +417,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RuitaiyuanSafeProject/Pods-RuitaiyuanSafeProject-resources.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-RuitaiyuanSafeProject/Pods-RuitaiyuanSafeProject-resources.sh",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
@@ -420,7 +430,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RuitaiyuanSafeProject/Pods-RuitaiyuanSafeProject-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RuitaiyuanSafeProject/Pods-RuitaiyuanSafeProject-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D8EA74E76DCE056FD74D63C1 /* [CP] Check Pods Manifest.lock */ = {
@@ -453,7 +463,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RuitaiyuanSafeProject/Pods-RuitaiyuanSafeProject-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-RuitaiyuanSafeProject/Pods-RuitaiyuanSafeProject-frameworks.sh",
 				"${PODS_ROOT}/PLRTCStreamingKit/Pod/Library/PLRTCStreamingKit.framework",
 				"${PODS_ROOT}/PLRTCStreamingKit/Pod/Library/HappyDNS.framework",
 			);
@@ -466,7 +476,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RuitaiyuanSafeProject/Pods-RuitaiyuanSafeProject-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RuitaiyuanSafeProject/Pods-RuitaiyuanSafeProject-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -633,11 +643,12 @@
 			baseConfigurationReference = FFCD922A3E5A84295A7BF97B /* Pods-RuitaiyuanSafeProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RuitaiyuanSafeProject/Appdelegete/RuitaiyuanSafeProject.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AG7FPKU77S;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = RuitaiyuanSafeProject/Appdelegete/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -653,11 +664,12 @@
 			baseConfigurationReference = 36D69A1CB38424D44D70AFC7 /* Pods-RuitaiyuanSafeProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RuitaiyuanSafeProject/Appdelegete/RuitaiyuanSafeProject.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AG7FPKU77S;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = RuitaiyuanSafeProject/Appdelegete/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
