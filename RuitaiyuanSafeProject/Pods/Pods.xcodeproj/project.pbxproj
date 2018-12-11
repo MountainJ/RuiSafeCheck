@@ -219,6 +219,7 @@
 		1E904A3CA498D6BCAD0E10BE59116E08 /* SDWebImageCodersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCodersManager.m; path = SDWebImage/SDWebImageCodersManager.m; sourceTree = "<group>"; };
 		20A7A062E23992F1A6165871136FCF78 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		20D798C85749C9266AD7BC7F84CCFDBE /* SDWebImageCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCoder.m; path = SDWebImage/SDWebImageCoder.m; sourceTree = "<group>"; };
+		22B7A66A92D277FB9A077896F970CF81 /* PLRTCStreamingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PLRTCStreamingKit.framework; path = "Pod/Library-Universal/PLRTCStreamingKit.framework"; sourceTree = "<group>"; };
 		245EF346F6DAB58B7E10DC51B8FF390F /* SDAnimatedImageRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageRep.h; path = SDWebImage/SDAnimatedImageRep.h; sourceTree = "<group>"; };
 		26224D6DFBF3BBD5A1BE717730F3E09B /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		27D7D27BC2221760A32CF1651D1BAA7F /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
@@ -257,6 +258,7 @@
 		59A6FDEB5A79BF1ABC36D239AC25BA5E /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
 		5AF45F0965CA41F724BDFA6C942682E5 /* UIImage+ForceDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ForceDecode.h"; path = "SDWebImage/UIImage+ForceDecode.h"; sourceTree = "<group>"; };
 		5AFDD4DC653C78B6CE0F9B6B799ADF74 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		5C8C1AEC1EB420562990884F77DBEA39 /* HappyDNS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HappyDNS.framework; path = "Pod/Library-Universal/HappyDNS.framework"; sourceTree = "<group>"; };
 		638CAF98F142138A4CEB44A564E7AC5C /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		6655A3DDB41383ABA8C431970FA0BD66 /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackStateFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
 		67A943C472EBC2F64080998BC16B760C /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
@@ -288,7 +290,6 @@
 		8DC17843EBFB6869760C42B70A6C6375 /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackNormalFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
 		8F2AF417840336CFE1FF847A69E36B6D /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
 		8FAE373CAA612031C1C39D7C4024ACCB /* SDWebImageCoderHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCoderHelper.m; path = SDWebImage/SDWebImageCoderHelper.m; sourceTree = "<group>"; };
-		906FE3D4184829401C09439E1238BDA9 /* PLRTCStreamingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PLRTCStreamingKit.framework; path = Pod/Library/PLRTCStreamingKit.framework; sourceTree = "<group>"; };
 		91E6AA1821221A91759F36140648CB49 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		925CAC8E246035C28533EB56CF2EC0FB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		9273810D19AE5C82E76EC5D7B570906C /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
@@ -347,7 +348,6 @@
 		C83C5FA1E4CBD0C5274E19BDB4D7CAE5 /* Pods-RuitaiyuanSafeProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RuitaiyuanSafeProject-frameworks.sh"; sourceTree = "<group>"; };
 		C8846797ADD9E8DBC9496359B10CB4DD /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
 		CAA073E78EE0A9017D461BF899AE1021 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
-		CCF34DE53AA033300FA88E49C4C74B9A /* HappyDNS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HappyDNS.framework; path = Pod/Library/HappyDNS.framework; sourceTree = "<group>"; };
 		D0294D76AAA8BC3D510C1EDFDB53DED1 /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
 		D4F32A153B4B1E63A511F2B6D6424094 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 		D52B35E1845C7CDD4EF867F211390FFB /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
@@ -501,7 +501,7 @@
 				D29A50734F58359FBDA2CB5CB22BEE24 /* JPush */,
 				687D39A62E34000D018F49D8CC112BCB /* MBProgressHUD */,
 				7965592E7A3FB0A12FAC4B1A7C44EF07 /* MJRefresh */,
-				4D2DBA7E72DAC3FA06AB6B5E873835AC /* PLRTCStreamingKit */,
+				7426933934C27ABC4E240ED000B102D6 /* PLRTCStreamingKit */,
 				C6C21208552D78B0886C43550BD432CE /* SDWebImage */,
 				B2EA930177A0E216B85EA78317A5B487 /* SVProgressHUD */,
 			);
@@ -546,13 +546,13 @@
 			path = "../Target Support Files/SDWebImage";
 			sourceTree = "<group>";
 		};
-		4D2DBA7E72DAC3FA06AB6B5E873835AC /* PLRTCStreamingKit */ = {
+		56338CEEECD6B2A9D348C180E6133690 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				969D3008FCBB811B00E3C7F794215A06 /* iphoneos */,
+				5C8C1AEC1EB420562990884F77DBEA39 /* HappyDNS.framework */,
+				22B7A66A92D277FB9A077896F970CF81 /* PLRTCStreamingKit.framework */,
 			);
-			name = PLRTCStreamingKit;
-			path = PLRTCStreamingKit;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		5D2841B222A6D59282C8E39A6FFD1674 /* Products */ = {
@@ -693,6 +693,15 @@
 			name = Security;
 			sourceTree = "<group>";
 		};
+		7426933934C27ABC4E240ED000B102D6 /* PLRTCStreamingKit */ = {
+			isa = PBXGroup;
+			children = (
+				874F43B49F73AAD80E20FDB8035F6E74 /* universal */,
+			);
+			name = PLRTCStreamingKit;
+			path = PLRTCStreamingKit;
+			sourceTree = "<group>";
+		};
 		7965592E7A3FB0A12FAC4B1A7C44EF07 /* MJRefresh */ = {
 			isa = PBXGroup;
 			children = (
@@ -742,15 +751,6 @@
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
-		7C904D0D1498DF8936A261C79685DD1E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CCF34DE53AA033300FA88E49C4C74B9A /* HappyDNS.framework */,
-				906FE3D4184829401C09439E1238BDA9 /* PLRTCStreamingKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -770,12 +770,12 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		969D3008FCBB811B00E3C7F794215A06 /* iphoneos */ = {
+		874F43B49F73AAD80E20FDB8035F6E74 /* universal */ = {
 			isa = PBXGroup;
 			children = (
-				7C904D0D1498DF8936A261C79685DD1E /* Frameworks */,
+				56338CEEECD6B2A9D348C180E6133690 /* Frameworks */,
 			);
-			name = iphoneos;
+			name = universal;
 			sourceTree = "<group>";
 		};
 		A92F1E474ED975D6F34909610319000E /* Support Files */ = {

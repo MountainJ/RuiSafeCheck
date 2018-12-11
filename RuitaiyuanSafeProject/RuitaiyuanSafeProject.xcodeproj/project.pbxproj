@@ -464,8 +464,8 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RuitaiyuanSafeProject/Pods-RuitaiyuanSafeProject-frameworks.sh",
-				"${PODS_ROOT}/PLRTCStreamingKit/Pod/Library/PLRTCStreamingKit.framework",
-				"${PODS_ROOT}/PLRTCStreamingKit/Pod/Library/HappyDNS.framework",
+				"${PODS_ROOT}/PLRTCStreamingKit/Pod/Library-Universal/PLRTCStreamingKit.framework",
+				"${PODS_ROOT}/PLRTCStreamingKit/Pod/Library-Universal/HappyDNS.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (

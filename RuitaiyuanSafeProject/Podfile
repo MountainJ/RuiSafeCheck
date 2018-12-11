@@ -14,8 +14,7 @@ pod 'MJRefresh'
 pod 'MBProgressHUD', '~> 1.1.0'
 pod 'SVProgressHUD'
 pod 'JPush'
-pod 'PLRTCStreamingKit'
-
-
+#真机+模拟器
+pod "PLRTCStreamingKit", :podspec => 'https://raw.githubusercontent.com/pili-engineering/PLRTCStreamingKit/master/PLRTCStreamingKit-Universal.podspec'
 
 end

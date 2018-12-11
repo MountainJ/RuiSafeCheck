@@ -1,6 +1,0 @@
-framework module PLRTCStreamingKit {
-  umbrella header "PLRTCStreamingKit.h"
-
-  export *
-  module * { export * }
-}
