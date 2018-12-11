@@ -73,6 +73,7 @@
 		A06C729F218AF4C300AE93ED /* RTYHomeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYHomeManager.h; sourceTree = "<group>"; };
 		A06C72A0218AF4C300AE93ED /* RTYHomeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYHomeManager.m; sourceTree = "<group>"; };
 		A0A70D3021AF8CE100DB2B7F /* RuitaiyuanSafeProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RuitaiyuanSafeProject.entitlements; sourceTree = "<group>"; };
+		A0FAF2A521BFCBAA0019A2EA /* RTYPreheaders.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYPreheaders.pch; sourceTree = "<group>"; };
 		FFCD922A3E5A84295A7BF97B /* Pods-RuitaiyuanSafeProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuitaiyuanSafeProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RuitaiyuanSafeProject/Pods-RuitaiyuanSafeProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -167,6 +168,7 @@
 				A0A70D3021AF8CE100DB2B7F /* RuitaiyuanSafeProject.entitlements */,
 				A06C7270218AEEF400AE93ED /* main.m */,
 				A06C7272218AEEF400AE93ED /* Info.plist */,
+				A0FAF2A521BFCBAA0019A2EA /* RTYPreheaders.pch */,
 			);
 			path = Appdelegete;
 			sourceTree = "<group>";
