@@ -10,6 +10,7 @@
 
 #import "AppDelegate.h"
 #import "RTYTabbarController.h"
+#import "RTYCollectorHomeVC.h"
 
 
 @interface RTYUserLoginVC ()
@@ -40,9 +41,14 @@
         [self dismissViewControllerAnimated:YES completion:nil];
         return;
     }
-    RTYTabbarController *tabbar = [[RTYTabbarController alloc] init];
-    [self restoreRootViewController:tabbar];
-
+    
+    //登陆业主端的主界面
+//    RTYTabbarController *tabbar = [[RTYTabbarController alloc] init];
+//    [self restoreRootViewController:tabbar];
+    //
+    //登陆采集员的主界面
+    RTYCollectorHomeVC *collectorvc = [[RTYCollectorHomeVC alloc] init];
+    [self restoreRootViewController:collectorvc];
 }
 
 // 登陆后淡入淡出更换rootViewController

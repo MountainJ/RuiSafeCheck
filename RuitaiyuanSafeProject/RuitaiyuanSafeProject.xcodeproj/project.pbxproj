@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		479C10CDD9FA762DCFB9F4B8 /* libPods-RuitaiyuanSafeProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86570F2C358B53ADE28FC6C5 /* libPods-RuitaiyuanSafeProject.a */; };
 		64C234E821C0053D0073E12C /* RTYUserLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C234E721C0053D0073E12C /* RTYUserLoginVC.m */; };
+		64C234F021C016860073E12C /* RTYCollectorHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C234EF21C016860073E12C /* RTYCollectorHomeVC.m */; };
 		A0096B6F218410A200827969 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0096B6D218410A200827969 /* Main.storyboard */; };
 		A0096B71218410A300827969 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0096B70218410A300827969 /* Assets.xcassets */; };
 		A0096B74218410A300827969 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0096B72218410A300827969 /* LaunchScreen.storyboard */; };
@@ -36,6 +37,8 @@
 		64012165219492310072A8B6 /* RTYNetWorkHosts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYNetWorkHosts.h; sourceTree = "<group>"; };
 		64C234E621C0053D0073E12C /* RTYUserLoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYUserLoginVC.h; sourceTree = "<group>"; };
 		64C234E721C0053D0073E12C /* RTYUserLoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYUserLoginVC.m; sourceTree = "<group>"; };
+		64C234EE21C016860073E12C /* RTYCollectorHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYCollectorHomeVC.h; sourceTree = "<group>"; };
+		64C234EF21C016860073E12C /* RTYCollectorHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYCollectorHomeVC.m; sourceTree = "<group>"; };
 		86570F2C358B53ADE28FC6C5 /* libPods-RuitaiyuanSafeProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RuitaiyuanSafeProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0096B64218410A200827969 /* RuitaiyuanSafeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuitaiyuanSafeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0096B6E218410A200827969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -98,6 +101,47 @@
 				86570F2C358B53ADE28FC6C5 /* libPods-RuitaiyuanSafeProject.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64C234E921C016380073E12C /* InformationCollector */ = {
+			isa = PBXGroup;
+			children = (
+				64C234EA21C016380073E12C /* Controller */,
+				64C234EB21C016380073E12C /* Manager */,
+				64C234EC21C016380073E12C /* Model */,
+				64C234ED21C016380073E12C /* View */,
+			);
+			path = InformationCollector;
+			sourceTree = "<group>";
+		};
+		64C234EA21C016380073E12C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				64C234EE21C016860073E12C /* RTYCollectorHomeVC.h */,
+				64C234EF21C016860073E12C /* RTYCollectorHomeVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		64C234EB21C016380073E12C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		64C234EC21C016380073E12C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64C234ED21C016380073E12C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		6E8D636FB92415433B8071DC /* Pods */ = {
@@ -217,6 +261,7 @@
 		A06C727A218AEEF400AE93ED /* BusinessLayer */ = {
 			isa = PBXGroup;
 			children = (
+				64C234E921C016380073E12C /* InformationCollector */,
 				A06C7280218AEEF400AE93ED /* HomeItem */,
 				A06C727B218AEEF400AE93ED /* ProfileItem */,
 			);
@@ -499,6 +544,7 @@
 				A06C728E218AEF4A00AE93ED /* RTYBaseController.m in Sources */,
 				A06C729B218AF16500AE93ED /* RTYHomeViewController.m in Sources */,
 				A06C72A1218AF4C300AE93ED /* RTYHomeManager.m in Sources */,
+				64C234F021C016860073E12C /* RTYCollectorHomeVC.m in Sources */,
 				A04AB6182192E3FC00B5D5E6 /* RTYHomePageView.m in Sources */,
 				A04AB6212192E44500B5D5E6 /* RTYProfileManager.m in Sources */,
 				A06C7286218AEEF400AE93ED /* main.m in Sources */,
@@ -655,6 +701,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AG7FPKU77S;
 				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RuitaiyuanSafeProject/Appdelegete/RTYPreheaders.pch";
 				INFOPLIST_FILE = RuitaiyuanSafeProject/Appdelegete/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -676,6 +723,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AG7FPKU77S;
 				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RuitaiyuanSafeProject/Appdelegete/RTYPreheaders.pch";
 				INFOPLIST_FILE = RuitaiyuanSafeProject/Appdelegete/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
