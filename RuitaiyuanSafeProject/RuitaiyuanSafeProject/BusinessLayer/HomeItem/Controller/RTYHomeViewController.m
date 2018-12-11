@@ -11,6 +11,7 @@
 
 #import "RTYLiveCallViewController.h"
 
+#import "RTYUserLoginVC.h"
 
 
 @interface RTYHomeViewController ()
@@ -30,7 +31,7 @@
     UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
     [button setTitle:@"push next" forState:UIControlStateNormal];
     button.frame = CGRectMake(0, 0, 120, 44);
-    button.center = CGPointMake(CGRectGetMidX([UIScreen mainScreen].bounds), CGRectGetHeight([UIScreen mainScreen].bounds) - 80);
+    button.center = CGPointMake(CGRectGetMidX([UIScreen mainScreen].bounds), CGRectGetHeight([UIScreen mainScreen].bounds) - 180);
     [button addTarget:self action:@selector(actionButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
     
@@ -39,9 +40,15 @@
 
 
 - (void)actionButtonPressed:(id)sender {
+    
+    
+    //构造登录的主页面
+    RTYUserLoginVC *loginvc = [[RTYUserLoginVC alloc] init];
+    [self presentViewController:loginvc animated:YES completion:nil];
+    
 
-    RTYLiveCallViewController *livevc = [RTYLiveCallViewController new];
-    [self.navigationController pushViewController:livevc animated:YES];
+//    RTYLiveCallViewController *livevc = [RTYLiveCallViewController new];
+//    [self.navigationController pushViewController:livevc animated:YES];
 }
 
 /*

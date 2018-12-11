@@ -32,6 +32,8 @@
     //设置选中字体颜色
     UIColor *titleHighlightedColor = [UIColor orangeColor];
     [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys: titleHighlightedColor, NSForegroundColorAttributeName,[UIFont systemFontOfSize:19.],NSFontAttributeName,nil] forState:UIControlStateSelected];
+    
+    
  
 }
 

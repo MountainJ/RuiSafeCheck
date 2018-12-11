@@ -12,12 +12,16 @@
 
 #import "RTYTabbarController.h"
 
+#import "RTYUserLoginVC.h"
+
 #import "JPUSHService.h"
 #ifdef NSFoundationVersionNumber_iOS_9_x_Max
 #import <UserNotifications/UserNotifications.h> // iOS10 注册 APNs 所需头文件
 #endif
 
 @interface AppDelegate ()<JPUSHRegisterDelegate>
+
+@property (nonatomic,strong) RTYTabbarController *tabbarvc;
 
 @end
 
@@ -30,10 +34,12 @@
     
     [self configThirdBusinessWithOptions:launchOptions];
     
-    RTYTabbarController *tabbarvc = [[RTYTabbarController alloc] init];
-    self.window.rootViewController = tabbarvc;
+//    self.tabbarvc = [[RTYTabbarController alloc] init];
+//    self.window.rootViewController = self.tabbarvc;
 
     //构造登录的主页面
+    RTYUserLoginVC *loginvc = [[RTYUserLoginVC alloc] init];
+    self.window.rootViewController = loginvc;
     
     ////
     
@@ -43,6 +49,8 @@
     
     return YES;
 }
+
+
 
 - (void)configThirdBusinessWithOptions:(NSDictionary *)launchOptions
 {

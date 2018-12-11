@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		479C10CDD9FA762DCFB9F4B8 /* libPods-RuitaiyuanSafeProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86570F2C358B53ADE28FC6C5 /* libPods-RuitaiyuanSafeProject.a */; };
+		64C234E821C0053D0073E12C /* RTYUserLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C234E721C0053D0073E12C /* RTYUserLoginVC.m */; };
 		A0096B6F218410A200827969 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0096B6D218410A200827969 /* Main.storyboard */; };
 		A0096B71218410A300827969 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0096B70218410A300827969 /* Assets.xcassets */; };
 		A0096B74218410A300827969 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0096B72218410A300827969 /* LaunchScreen.storyboard */; };
@@ -33,6 +34,8 @@
 /* Begin PBXFileReference section */
 		36D69A1CB38424D44D70AFC7 /* Pods-RuitaiyuanSafeProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuitaiyuanSafeProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-RuitaiyuanSafeProject/Pods-RuitaiyuanSafeProject.release.xcconfig"; sourceTree = "<group>"; };
 		64012165219492310072A8B6 /* RTYNetWorkHosts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYNetWorkHosts.h; sourceTree = "<group>"; };
+		64C234E621C0053D0073E12C /* RTYUserLoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYUserLoginVC.h; sourceTree = "<group>"; };
+		64C234E721C0053D0073E12C /* RTYUserLoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYUserLoginVC.m; sourceTree = "<group>"; };
 		86570F2C358B53ADE28FC6C5 /* libPods-RuitaiyuanSafeProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RuitaiyuanSafeProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0096B64218410A200827969 /* RuitaiyuanSafeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuitaiyuanSafeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0096B6E218410A200827969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -163,6 +166,8 @@
 			children = (
 				A06C726E218AEEF400AE93ED /* AppDelegate.h */,
 				A06C7271218AEEF400AE93ED /* AppDelegate.m */,
+				64C234E621C0053D0073E12C /* RTYUserLoginVC.h */,
+				64C234E721C0053D0073E12C /* RTYUserLoginVC.m */,
 				A06C7273218AEEF400AE93ED /* ViewController.h */,
 				A06C726F218AEEF400AE93ED /* ViewController.m */,
 				A0A70D3021AF8CE100DB2B7F /* RuitaiyuanSafeProject.entitlements */,
@@ -499,6 +504,7 @@
 				A06C7286218AEEF400AE93ED /* main.m in Sources */,
 				A04AB61E2192E43000B5D5E6 /* RTYProfileTopView.m in Sources */,
 				A06C7285218AEEF400AE93ED /* ViewController.m in Sources */,
+				64C234E821C0053D0073E12C /* RTYUserLoginVC.m in Sources */,
 				A04AB61B2192E41D00B5D5E6 /* RTYProfileModel.m in Sources */,
 				A06C7292218AF0E500AE93ED /* RTYTabbarController.m in Sources */,
 				A06C7287218AEEF400AE93ED /* AppDelegate.m in Sources */,
