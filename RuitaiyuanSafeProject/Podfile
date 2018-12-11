@@ -9,13 +9,12 @@ target 'RuitaiyuanSafeProject' do
   # Pods for RuitaiyuanSafeProject
 
 pod 'AFNetworking'
-pod 'PLRTCStreamingKit'
 pod 'SDWebImage', '~> 4.0'
 pod 'MJRefresh'
-pod 'PLRTCStreamingKit'
 pod 'MBProgressHUD', '~> 1.1.0'
 pod 'SVProgressHUD'
 pod 'JPush'
+pod 'PLRTCStreamingKit'
 
 
 
