@@ -33,6 +33,7 @@
     // Do any additional setup after loading the view.
     
     self.title = @"通话";
+    self.view.backgroundColor = [UIColor lightGrayColor];
     
     [SVProgressHUD show];
     

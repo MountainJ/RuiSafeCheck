@@ -10,7 +10,7 @@
 
 #import <PLRTCStreamingKit/PLRTCStreamingKit.h>
 
-#import "RTYHomeViewController.h"
+#import "RTYTabbarController.h"
 
 #import "JPUSHService.h"
 #ifdef NSFoundationVersionNumber_iOS_9_x_Max
@@ -30,13 +30,10 @@
     
     [self configThirdBusinessWithOptions:launchOptions];
     
-    RTYHomeViewController *homevc = [[RTYHomeViewController alloc] init];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:homevc];
-    self.window.rootViewController = nav;
-    
-    
+    RTYTabbarController *tabbarvc = [[RTYTabbarController alloc] init];
+    self.window.rootViewController = tabbarvc;
+
     //构造登录的主页面
-    
     
     ////
     
