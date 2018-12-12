@@ -19,7 +19,6 @@
 		A04AB61E2192E43000B5D5E6 /* RTYProfileTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A04AB61D2192E43000B5D5E6 /* RTYProfileTopView.m */; };
 		A04AB6212192E44500B5D5E6 /* RTYProfileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A04AB6202192E44500B5D5E6 /* RTYProfileManager.m */; };
 		A04AB6282192FB7C00B5D5E6 /* RTYLiveCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A04AB6272192FB7C00B5D5E6 /* RTYLiveCallViewController.m */; };
-		A06C7285218AEEF400AE93ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06C726F218AEEF400AE93ED /* ViewController.m */; };
 		A06C7286218AEEF400AE93ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A06C7270218AEEF400AE93ED /* main.m */; };
 		A06C7287218AEEF400AE93ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A06C7271218AEEF400AE93ED /* AppDelegate.m */; };
 		A06C7289218AEEF400AE93ED /* 项目需求.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A06C7278218AEEF400AE93ED /* 项目需求.rtf */; };
@@ -30,6 +29,7 @@
 		A06C729B218AF16500AE93ED /* RTYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06C729A218AF16500AE93ED /* RTYHomeViewController.m */; };
 		A06C729E218AF17500AE93ED /* RTYMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06C729D218AF17500AE93ED /* RTYMineViewController.m */; };
 		A06C72A1218AF4C300AE93ED /* RTYHomeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A06C72A0218AF4C300AE93ED /* RTYHomeManager.m */; };
+		A0FA591621C0C94300D560A5 /* RTYLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FA591521C0C94300D560A5 /* RTYLoginManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,11 +59,9 @@
 		A04AB6262192FB7C00B5D5E6 /* RTYLiveCallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYLiveCallViewController.h; sourceTree = "<group>"; };
 		A04AB6272192FB7C00B5D5E6 /* RTYLiveCallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYLiveCallViewController.m; sourceTree = "<group>"; };
 		A06C726E218AEEF400AE93ED /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A06C726F218AEEF400AE93ED /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A06C7270218AEEF400AE93ED /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A06C7271218AEEF400AE93ED /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A06C7272218AEEF400AE93ED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A06C7273218AEEF400AE93ED /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A06C7278218AEEF400AE93ED /* 项目需求.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "项目需求.rtf"; sourceTree = "<group>"; };
 		A06C7279218AEEF400AE93ED /* 消防系统平台技术方案.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "消防系统平台技术方案.docx"; sourceTree = "<group>"; };
 		A06C728C218AEF4A00AE93ED /* RTYBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYBaseController.h; sourceTree = "<group>"; };
@@ -79,6 +77,8 @@
 		A06C729F218AF4C300AE93ED /* RTYHomeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYHomeManager.h; sourceTree = "<group>"; };
 		A06C72A0218AF4C300AE93ED /* RTYHomeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYHomeManager.m; sourceTree = "<group>"; };
 		A0A70D3021AF8CE100DB2B7F /* RuitaiyuanSafeProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RuitaiyuanSafeProject.entitlements; sourceTree = "<group>"; };
+		A0FA591421C0C94300D560A5 /* RTYLoginManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYLoginManager.h; sourceTree = "<group>"; };
+		A0FA591521C0C94300D560A5 /* RTYLoginManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYLoginManager.m; sourceTree = "<group>"; };
 		A0FAF2A521BFCBAA0019A2EA /* RTYPreheaders.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYPreheaders.pch; sourceTree = "<group>"; };
 		FFCD922A3E5A84295A7BF97B /* Pods-RuitaiyuanSafeProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuitaiyuanSafeProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RuitaiyuanSafeProject/Pods-RuitaiyuanSafeProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -212,8 +212,6 @@
 				A06C7271218AEEF400AE93ED /* AppDelegate.m */,
 				64C234E621C0053D0073E12C /* RTYUserLoginVC.h */,
 				64C234E721C0053D0073E12C /* RTYUserLoginVC.m */,
-				A06C7273218AEEF400AE93ED /* ViewController.h */,
-				A06C726F218AEEF400AE93ED /* ViewController.m */,
 				A0A70D3021AF8CE100DB2B7F /* RuitaiyuanSafeProject.entitlements */,
 				A06C7270218AEEF400AE93ED /* main.m */,
 				A06C7272218AEEF400AE93ED /* Info.plist */,
@@ -341,6 +339,8 @@
 			children = (
 				A06C729F218AF4C300AE93ED /* RTYHomeManager.h */,
 				A06C72A0218AF4C300AE93ED /* RTYHomeManager.m */,
+				A0FA591421C0C94300D560A5 /* RTYLoginManager.h */,
+				A0FA591521C0C94300D560A5 /* RTYLoginManager.m */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -541,6 +541,7 @@
 				A06C7295218AF12D00AE93ED /* RTYRequestHandler.m in Sources */,
 				A06C729E218AF17500AE93ED /* RTYMineViewController.m in Sources */,
 				A04AB6152192E3E400B5D5E6 /* RTYHomeModel.m in Sources */,
+				A0FA591621C0C94300D560A5 /* RTYLoginManager.m in Sources */,
 				A06C728E218AEF4A00AE93ED /* RTYBaseController.m in Sources */,
 				A06C729B218AF16500AE93ED /* RTYHomeViewController.m in Sources */,
 				A06C72A1218AF4C300AE93ED /* RTYHomeManager.m in Sources */,
@@ -549,7 +550,6 @@
 				A04AB6212192E44500B5D5E6 /* RTYProfileManager.m in Sources */,
 				A06C7286218AEEF400AE93ED /* main.m in Sources */,
 				A04AB61E2192E43000B5D5E6 /* RTYProfileTopView.m in Sources */,
-				A06C7285218AEEF400AE93ED /* ViewController.m in Sources */,
 				64C234E821C0053D0073E12C /* RTYUserLoginVC.m in Sources */,
 				A04AB61B2192E41D00B5D5E6 /* RTYProfileModel.m in Sources */,
 				A06C7292218AF0E500AE93ED /* RTYTabbarController.m in Sources */,

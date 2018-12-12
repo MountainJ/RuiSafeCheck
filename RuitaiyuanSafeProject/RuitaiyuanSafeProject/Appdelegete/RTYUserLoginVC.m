@@ -13,7 +13,20 @@
 #import "RTYCollectorHomeVC.h"
 
 
+typedef NS_ENUM(NSInteger,LoginUserType)
+{
+  LoginUserTypeNone = 0,
+    LoginUserTypeCollector , //采集员
+    LoginUserTypeExpert  ,//专家
+    LoginUserTypeTroubleshootingofficer , //排查员
+    LoginUserTypeOwner ,//业主
+    LoginUserTypeSupervisor  //督促员
+};
+
 @interface RTYUserLoginVC ()
+
+@property (nonatomic,assign) LoginUserType  loginType;
+
 
 @end
 
@@ -37,18 +50,21 @@
 
 - (void)loginPressed
 {
+    //TODO请求登录接口处理,处理完登录过后，在做页面跳转逻辑
+    
+    
     if (self.presentingViewController!=nil) {
         [self dismissViewControllerAnimated:YES completion:nil];
         return;
     }
     
     //登陆业主端的主界面
-//    RTYTabbarController *tabbar = [[RTYTabbarController alloc] init];
-//    [self restoreRootViewController:tabbar];
-    //
+    RTYTabbarController *tabbar = [[RTYTabbarController alloc] init];
+    [self restoreRootViewController:tabbar];
+    
     //登陆采集员的主界面
-    RTYCollectorHomeVC *collectorvc = [[RTYCollectorHomeVC alloc] init];
-    [self restoreRootViewController:collectorvc];
+//    RTYCollectorHomeVC *collectorvc = [[RTYCollectorHomeVC alloc] init];
+//    [self restoreRootViewController:collectorvc];
 }
 
 // 登陆后淡入淡出更换rootViewController
@@ -71,14 +87,8 @@
                     completion:nil];
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+
+
 
 @end
