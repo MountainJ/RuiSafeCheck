@@ -50,23 +50,45 @@ typedef NS_ENUM(NSInteger,LoginUserType)
 
 - (void)loginPressed
 {
+    self.loginType = LoginUserTypeCollector;
     //TODO请求登录接口处理,处理完登录过后，在做页面跳转逻辑
-    
-    
     if (self.presentingViewController!=nil) {
         [self dismissViewControllerAnimated:YES completion:nil];
         return;
     }
-    
-    //登陆业主端的主界面
-    RTYTabbarController *tabbar = [[RTYTabbarController alloc] init];
-    [self restoreRootViewController:tabbar];
-    
-    //登陆采集员的主界面
-//    RTYCollectorHomeVC *collectorvc = [[RTYCollectorHomeVC alloc] init];
-//    [self restoreRootViewController:collectorvc];
+    switch (self.loginType) {
+        case LoginUserTypeNone:
+            break;
+        case LoginUserTypeCollector:
+        {
+            //登陆采集员的主界面
+            RTYCollectorHomeVC *collectorvc = [[RTYCollectorHomeVC alloc] init];
+            [self restoreRootViewController:collectorvc];
+        }
+            break;
+        case LoginUserTypeOwner:
+        {
+            //登陆业主端的主界面
+            RTYTabbarController *tabbar = [[RTYTabbarController alloc] init];
+            [self restoreRootViewController:tabbar];
+        }
+            break;
+        default:
+            break;
+    }
 }
 
+
+
+
+
+
+
+
+
+
+
+#pragma mark - animation
 // 登陆后淡入淡出更换rootViewController
 - (void)restoreRootViewController:(UIViewController *)rootViewController
 {
