@@ -23,5 +23,14 @@
 #define COLOR_FROM_RGBA(rgbValue, nAlpha) [UIColor colorWithRed:((float)(((rgbValue) & 0xFF0000) >> 16))/255.0 green:((float)(((rgbValue) & 0xFF00) >> 8))/255.0 blue:((float)((rgbValue) & 0xFF))/255.0 alpha:(nAlpha)]
 #endif
 
+//UI COLOR
+
+//状态栏，导航栏的背景颜色
+#define COLOR_STATUS_NAV_BAR_BACK   [UIColor colorWithRed:4.0/255 green:145.0/255 blue:218.0/255 alpha:1]
+
+//浅色背景
+#define COLOR_LIGHTGRAY_BACK   [UIColor colorWithRed:246.0/255 green:246.0/255 blue:246.0/255 alpha:1]
+
+
 
 #endif /* RTYColors_h */

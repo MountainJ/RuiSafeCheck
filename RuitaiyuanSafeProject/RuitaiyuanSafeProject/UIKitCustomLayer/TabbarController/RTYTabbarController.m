@@ -10,6 +10,7 @@
 
 #import "RTYHomeViewController.h"
 #import "RTYMineViewController.h"
+#import "RTYSolvedHomeController.h"
 
 
 @interface RTYTabbarController ()
@@ -23,22 +24,18 @@
     // Do any additional setup after loading the view.
     
     [self creatAddVC:[RTYHomeViewController new] title:@"首页" imgName:nil];
+    [self creatAddVC:[RTYSolvedHomeController new] title:@"已解决" imgName:nil];
     [self creatAddVC:[RTYMineViewController new] title:@"我的" imgName:nil];
     
 
     
-    //设置默认字体颜色
-    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys: [UIColor darkGrayColor], NSForegroundColorAttributeName,[UIFont systemFontOfSize:19.],NSFontAttributeName, nil] forState:UIControlStateNormal];
-    //设置选中字体颜色
-    UIColor *titleHighlightedColor = [UIColor orangeColor];
-    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys: titleHighlightedColor, NSForegroundColorAttributeName,[UIFont systemFontOfSize:19.],NSFontAttributeName,nil] forState:UIControlStateSelected];
-    
+   
     
  
 }
 
 
-- (void)creatAddVC:(UIViewController *)vc title:(NSString *)title imgName:(NSString *)imgName{
+- (UIViewController *)creatAddVC:(UIViewController *)vc title:(NSString *)title imgName:(NSString *)imgName{
     
     vc.title = title;
     if (imgName) {
@@ -46,10 +43,33 @@
         NSString *selImgName = [NSString stringWithFormat:@"%@_sel",imgName];
         vc.tabBarItem.selectedImage = [[UIImage imageNamed:selImgName]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     }
-   
+    vc.tabBarItem.title = title;
+//    NSDictionary *dictTitleSel = [NSDictionary dictionaryWithObjectsAndKeys: [UIColor blueColor], NSForegroundColorAttributeName,[UIFont systemFontOfSize:17.],NSFontAttributeName, nil];
+//    NSDictionary *dictTitleNor = [NSDictionary dictionaryWithObjectsAndKeys: [UIColor lightGrayColor], NSForegroundColorAttributeName,[UIFont systemFontOfSize:17.],NSFontAttributeName, nil];
+//    [vc.tabBarItem setTitleTextAttributes:dictTitleSel forState:UIControlStateSelected];//设置选中字体颜色
+//    [vc.tabBarItem setTitleTextAttributes:dictTitleNor forState:UIControlStateNormal];//设置默认字体颜色
+    if (!IS_PHONEX_SERIER) {
+        vc.tabBarItem.titlePositionAdjustment = UIOffsetMake(0, -4);
+        vc.tabBarItem.imageInsets = UIEdgeInsetsMake(-2, 0, 2, 0);
+    }
+
+    
+    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys: [UIColor lightGrayColor], NSForegroundColorAttributeName,[UIFont systemFontOfSize:17.],NSFontAttributeName, nil] forState:UIControlStateNormal];
+
+    UIColor *titleHighlightedColor = [UIColor blueColor];
+    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys: titleHighlightedColor, NSForegroundColorAttributeName,[UIFont systemFontOfSize:17.],NSFontAttributeName,nil] forState:UIControlStateSelected];
+
+    
+    //tabbar 背景颜色
+    [[UITabBar appearance] setBarTintColor:[UIColor whiteColor]];
+    [UITabBar appearance].translucent = NO;
+    
+
+    
+    
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
     [self addChildViewController:nav];
-   
+    return vc;
 }
 
 

@@ -33,6 +33,11 @@
 #define IS_IPAD   (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
 #endif
 
+#ifndef IS_PHONEX_SERIER
+#define IS_PHONEX_SERIER    (CGRectGetHeight([UIApplication sharedApplication].statusBarFrame) > 20.0f)
+#endif
+
+
 // iPad 9.7  1024 * 768 iPhone 6 375*667
 #ifndef iPadViewScale
 #define iPadViewScale(px) ((SCREEN_WIDTH > SCREEN_HEIGHT) ? iPadViewLandscapeScale(px) : iPadViewPortraitScale(px))

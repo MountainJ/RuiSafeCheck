@@ -50,7 +50,7 @@ typedef NS_ENUM(NSInteger,LoginUserType)
 
 - (void)loginPressed
 {
-    self.loginType = LoginUserTypeCollector;
+    self.loginType = LoginUserTypeOwner;
     //TODO请求登录接口处理,处理完登录过后，在做页面跳转逻辑
     if (self.presentingViewController!=nil) {
         [self dismissViewControllerAnimated:YES completion:nil];

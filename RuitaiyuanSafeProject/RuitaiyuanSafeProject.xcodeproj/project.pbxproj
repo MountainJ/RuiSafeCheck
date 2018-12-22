@@ -29,6 +29,7 @@
 		A06C729B218AF16500AE93ED /* RTYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06C729A218AF16500AE93ED /* RTYHomeViewController.m */; };
 		A06C729E218AF17500AE93ED /* RTYMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06C729D218AF17500AE93ED /* RTYMineViewController.m */; };
 		A06C72A1218AF4C300AE93ED /* RTYHomeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A06C72A0218AF4C300AE93ED /* RTYHomeManager.m */; };
+		A0A0508921CEA13600F903DB /* RTYSolvedHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A0508821CEA13600F903DB /* RTYSolvedHomeController.m */; };
 		A0FA591621C0C94300D560A5 /* RTYLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FA591521C0C94300D560A5 /* RTYLoginManager.m */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +77,8 @@
 		A06C729D218AF17500AE93ED /* RTYMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYMineViewController.m; sourceTree = "<group>"; };
 		A06C729F218AF4C300AE93ED /* RTYHomeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYHomeManager.h; sourceTree = "<group>"; };
 		A06C72A0218AF4C300AE93ED /* RTYHomeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYHomeManager.m; sourceTree = "<group>"; };
+		A0A0508721CEA13600F903DB /* RTYSolvedHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYSolvedHomeController.h; sourceTree = "<group>"; };
+		A0A0508821CEA13600F903DB /* RTYSolvedHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYSolvedHomeController.m; sourceTree = "<group>"; };
 		A0A70D3021AF8CE100DB2B7F /* RuitaiyuanSafeProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RuitaiyuanSafeProject.entitlements; sourceTree = "<group>"; };
 		A0FA591421C0C94300D560A5 /* RTYLoginManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYLoginManager.h; sourceTree = "<group>"; };
 		A0FA591521C0C94300D560A5 /* RTYLoginManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYLoginManager.m; sourceTree = "<group>"; };
@@ -259,6 +262,7 @@
 		A06C727A218AEEF400AE93ED /* BusinessLayer */ = {
 			isa = PBXGroup;
 			children = (
+				A0A0508521CEA10B00F903DB /* Solved */,
 				64C234E921C016380073E12C /* InformationCollector */,
 				A06C7280218AEEF400AE93ED /* HomeItem */,
 				A06C727B218AEEF400AE93ED /* ProfileItem */,
@@ -379,6 +383,23 @@
 				A06C7291218AF0E500AE93ED /* RTYTabbarController.m */,
 			);
 			path = TabbarController;
+			sourceTree = "<group>";
+		};
+		A0A0508521CEA10B00F903DB /* Solved */ = {
+			isa = PBXGroup;
+			children = (
+				A0A0508621CEA11D00F903DB /* Controller */,
+			);
+			path = Solved;
+			sourceTree = "<group>";
+		};
+		A0A0508621CEA11D00F903DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A0A0508721CEA13600F903DB /* RTYSolvedHomeController.h */,
+				A0A0508821CEA13600F903DB /* RTYSolvedHomeController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -549,6 +570,7 @@
 				A04AB6182192E3FC00B5D5E6 /* RTYHomePageView.m in Sources */,
 				A04AB6212192E44500B5D5E6 /* RTYProfileManager.m in Sources */,
 				A06C7286218AEEF400AE93ED /* main.m in Sources */,
+				A0A0508921CEA13600F903DB /* RTYSolvedHomeController.m in Sources */,
 				A04AB61E2192E43000B5D5E6 /* RTYProfileTopView.m in Sources */,
 				64C234E821C0053D0073E12C /* RTYUserLoginVC.m in Sources */,
 				A04AB61B2192E41D00B5D5E6 /* RTYProfileModel.m in Sources */,
