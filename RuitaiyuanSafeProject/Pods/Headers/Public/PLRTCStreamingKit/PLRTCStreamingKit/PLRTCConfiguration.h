@@ -1,1 +1,1 @@
-../../../../PLRTCStreamingKit/Pod/Library/PLRTCStreamingKit.framework/Headers/PLRTCConfiguration.h
+../../../../PLRTCStreamingKit/Pod/Library-Universal/PLRTCStreamingKit.framework/Headers/PLRTCConfiguration.h

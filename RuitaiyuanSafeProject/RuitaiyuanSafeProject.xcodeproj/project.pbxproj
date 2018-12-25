@@ -8,27 +8,81 @@
 
 /* Begin PBXBuildFile section */
 		479C10CDD9FA762DCFB9F4B8 /* libPods-RuitaiyuanSafeProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86570F2C358B53ADE28FC6C5 /* libPods-RuitaiyuanSafeProject.a */; };
-		A0096B69218410A200827969 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0096B68218410A200827969 /* AppDelegate.m */; };
-		A0096B6C218410A200827969 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0096B6B218410A200827969 /* ViewController.m */; };
+		64C234E821C0053D0073E12C /* RTYUserLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C234E721C0053D0073E12C /* RTYUserLoginVC.m */; };
+		64C234F021C016860073E12C /* RTYCollectorHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C234EF21C016860073E12C /* RTYCollectorHomeVC.m */; };
 		A0096B6F218410A200827969 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0096B6D218410A200827969 /* Main.storyboard */; };
 		A0096B71218410A300827969 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0096B70218410A300827969 /* Assets.xcassets */; };
 		A0096B74218410A300827969 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0096B72218410A300827969 /* LaunchScreen.storyboard */; };
-		A0096B77218410A300827969 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0096B76218410A300827969 /* main.m */; };
+		A04AB6152192E3E400B5D5E6 /* RTYHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A04AB6142192E3E400B5D5E6 /* RTYHomeModel.m */; };
+		A04AB6182192E3FC00B5D5E6 /* RTYHomePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A04AB6172192E3FC00B5D5E6 /* RTYHomePageView.m */; };
+		A04AB61B2192E41D00B5D5E6 /* RTYProfileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A04AB61A2192E41D00B5D5E6 /* RTYProfileModel.m */; };
+		A04AB61E2192E43000B5D5E6 /* RTYProfileTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A04AB61D2192E43000B5D5E6 /* RTYProfileTopView.m */; };
+		A04AB6212192E44500B5D5E6 /* RTYProfileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A04AB6202192E44500B5D5E6 /* RTYProfileManager.m */; };
+		A04AB6282192FB7C00B5D5E6 /* RTYLiveCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A04AB6272192FB7C00B5D5E6 /* RTYLiveCallViewController.m */; };
+		A06C7286218AEEF400AE93ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A06C7270218AEEF400AE93ED /* main.m */; };
+		A06C7287218AEEF400AE93ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A06C7271218AEEF400AE93ED /* AppDelegate.m */; };
+		A06C7289218AEEF400AE93ED /* 项目需求.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A06C7278218AEEF400AE93ED /* 项目需求.rtf */; };
+		A06C728A218AEEF400AE93ED /* 消防系统平台技术方案.docx in Resources */ = {isa = PBXBuildFile; fileRef = A06C7279218AEEF400AE93ED /* 消防系统平台技术方案.docx */; };
+		A06C728E218AEF4A00AE93ED /* RTYBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06C728D218AEF4A00AE93ED /* RTYBaseController.m */; };
+		A06C7292218AF0E500AE93ED /* RTYTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06C7291218AF0E500AE93ED /* RTYTabbarController.m */; };
+		A06C7295218AF12D00AE93ED /* RTYRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A06C7294218AF12D00AE93ED /* RTYRequestHandler.m */; };
+		A06C729B218AF16500AE93ED /* RTYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06C729A218AF16500AE93ED /* RTYHomeViewController.m */; };
+		A06C729E218AF17500AE93ED /* RTYMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06C729D218AF17500AE93ED /* RTYMineViewController.m */; };
+		A06C72A1218AF4C300AE93ED /* RTYHomeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A06C72A0218AF4C300AE93ED /* RTYHomeManager.m */; };
+		A0A0508921CEA13600F903DB /* RTYSolvedHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A0508821CEA13600F903DB /* RTYSolvedHomeController.m */; };
+		A0FA591621C0C94300D560A5 /* RTYLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FA591521C0C94300D560A5 /* RTYLoginManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		36D69A1CB38424D44D70AFC7 /* Pods-RuitaiyuanSafeProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuitaiyuanSafeProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-RuitaiyuanSafeProject/Pods-RuitaiyuanSafeProject.release.xcconfig"; sourceTree = "<group>"; };
+		64012165219492310072A8B6 /* RTYNetWorkHosts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYNetWorkHosts.h; sourceTree = "<group>"; };
+		64C234E621C0053D0073E12C /* RTYUserLoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYUserLoginVC.h; sourceTree = "<group>"; };
+		64C234E721C0053D0073E12C /* RTYUserLoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYUserLoginVC.m; sourceTree = "<group>"; };
+		64C234EE21C016860073E12C /* RTYCollectorHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYCollectorHomeVC.h; sourceTree = "<group>"; };
+		64C234EF21C016860073E12C /* RTYCollectorHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYCollectorHomeVC.m; sourceTree = "<group>"; };
 		86570F2C358B53ADE28FC6C5 /* libPods-RuitaiyuanSafeProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RuitaiyuanSafeProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0096B64218410A200827969 /* RuitaiyuanSafeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuitaiyuanSafeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0096B67218410A200827969 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A0096B68218410A200827969 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A0096B6A218410A200827969 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A0096B6B218410A200827969 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A0096B6E218410A200827969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0096B70218410A300827969 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0096B73218410A300827969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A0096B75218410A300827969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A0096B76218410A300827969 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A04AB6132192E3E400B5D5E6 /* RTYHomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYHomeModel.h; sourceTree = "<group>"; };
+		A04AB6142192E3E400B5D5E6 /* RTYHomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYHomeModel.m; sourceTree = "<group>"; };
+		A04AB6162192E3FC00B5D5E6 /* RTYHomePageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYHomePageView.h; sourceTree = "<group>"; };
+		A04AB6172192E3FC00B5D5E6 /* RTYHomePageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYHomePageView.m; sourceTree = "<group>"; };
+		A04AB6192192E41D00B5D5E6 /* RTYProfileModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYProfileModel.h; sourceTree = "<group>"; };
+		A04AB61A2192E41D00B5D5E6 /* RTYProfileModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYProfileModel.m; sourceTree = "<group>"; };
+		A04AB61C2192E43000B5D5E6 /* RTYProfileTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYProfileTopView.h; sourceTree = "<group>"; };
+		A04AB61D2192E43000B5D5E6 /* RTYProfileTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYProfileTopView.m; sourceTree = "<group>"; };
+		A04AB61F2192E44500B5D5E6 /* RTYProfileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYProfileManager.h; sourceTree = "<group>"; };
+		A04AB6202192E44500B5D5E6 /* RTYProfileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYProfileManager.m; sourceTree = "<group>"; };
+		A04AB6232192E49400B5D5E6 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		A04AB6242192E51900B5D5E6 /* RTYColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYColors.h; sourceTree = "<group>"; };
+		A04AB6262192FB7C00B5D5E6 /* RTYLiveCallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYLiveCallViewController.h; sourceTree = "<group>"; };
+		A04AB6272192FB7C00B5D5E6 /* RTYLiveCallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYLiveCallViewController.m; sourceTree = "<group>"; };
+		A06C726E218AEEF400AE93ED /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A06C7270218AEEF400AE93ED /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A06C7271218AEEF400AE93ED /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A06C7272218AEEF400AE93ED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A06C7278218AEEF400AE93ED /* 项目需求.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "项目需求.rtf"; sourceTree = "<group>"; };
+		A06C7279218AEEF400AE93ED /* 消防系统平台技术方案.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "消防系统平台技术方案.docx"; sourceTree = "<group>"; };
+		A06C728C218AEF4A00AE93ED /* RTYBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYBaseController.h; sourceTree = "<group>"; };
+		A06C728D218AEF4A00AE93ED /* RTYBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYBaseController.m; sourceTree = "<group>"; };
+		A06C7290218AF0E500AE93ED /* RTYTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYTabbarController.h; sourceTree = "<group>"; };
+		A06C7291218AF0E500AE93ED /* RTYTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYTabbarController.m; sourceTree = "<group>"; };
+		A06C7293218AF12D00AE93ED /* RTYRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYRequestHandler.h; sourceTree = "<group>"; };
+		A06C7294218AF12D00AE93ED /* RTYRequestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYRequestHandler.m; sourceTree = "<group>"; };
+		A06C7299218AF16500AE93ED /* RTYHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYHomeViewController.h; sourceTree = "<group>"; };
+		A06C729A218AF16500AE93ED /* RTYHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYHomeViewController.m; sourceTree = "<group>"; };
+		A06C729C218AF17500AE93ED /* RTYMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYMineViewController.h; sourceTree = "<group>"; };
+		A06C729D218AF17500AE93ED /* RTYMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYMineViewController.m; sourceTree = "<group>"; };
+		A06C729F218AF4C300AE93ED /* RTYHomeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYHomeManager.h; sourceTree = "<group>"; };
+		A06C72A0218AF4C300AE93ED /* RTYHomeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYHomeManager.m; sourceTree = "<group>"; };
+		A0A0508721CEA13600F903DB /* RTYSolvedHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYSolvedHomeController.h; sourceTree = "<group>"; };
+		A0A0508821CEA13600F903DB /* RTYSolvedHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYSolvedHomeController.m; sourceTree = "<group>"; };
+		A0A70D3021AF8CE100DB2B7F /* RuitaiyuanSafeProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RuitaiyuanSafeProject.entitlements; sourceTree = "<group>"; };
+		A0FA591421C0C94300D560A5 /* RTYLoginManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYLoginManager.h; sourceTree = "<group>"; };
+		A0FA591521C0C94300D560A5 /* RTYLoginManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTYLoginManager.m; sourceTree = "<group>"; };
+		A0FAF2A521BFCBAA0019A2EA /* RTYPreheaders.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTYPreheaders.pch; sourceTree = "<group>"; };
 		FFCD922A3E5A84295A7BF97B /* Pods-RuitaiyuanSafeProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuitaiyuanSafeProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RuitaiyuanSafeProject/Pods-RuitaiyuanSafeProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,6 +104,47 @@
 				86570F2C358B53ADE28FC6C5 /* libPods-RuitaiyuanSafeProject.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64C234E921C016380073E12C /* InformationCollector */ = {
+			isa = PBXGroup;
+			children = (
+				64C234EA21C016380073E12C /* Controller */,
+				64C234EB21C016380073E12C /* Manager */,
+				64C234EC21C016380073E12C /* Model */,
+				64C234ED21C016380073E12C /* View */,
+			);
+			path = InformationCollector;
+			sourceTree = "<group>";
+		};
+		64C234EA21C016380073E12C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				64C234EE21C016860073E12C /* RTYCollectorHomeVC.h */,
+				64C234EF21C016860073E12C /* RTYCollectorHomeVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		64C234EB21C016380073E12C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		64C234EC21C016380073E12C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64C234ED21C016380073E12C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		6E8D636FB92415433B8071DC /* Pods */ = {
@@ -82,17 +177,229 @@
 		A0096B66218410A200827969 /* RuitaiyuanSafeProject */ = {
 			isa = PBXGroup;
 			children = (
-				A0096B67218410A200827969 /* AppDelegate.h */,
-				A0096B68218410A200827969 /* AppDelegate.m */,
-				A0096B6A218410A200827969 /* ViewController.h */,
-				A0096B6B218410A200827969 /* ViewController.m */,
+				A06C726D218AEEF400AE93ED /* Appdelegete */,
+				A04AB6222192E47D00B5D5E6 /* CommonLayer */,
+				A06C727A218AEEF400AE93ED /* BusinessLayer */,
+				A06C7276218AEEF400AE93ED /* DataLayer */,
+				A06C7275218AEEF400AE93ED /* NetworkLayer */,
+				A06C7274218AEEF400AE93ED /* UIKitCustomLayer */,
 				A0096B6D218410A200827969 /* Main.storyboard */,
 				A0096B70218410A300827969 /* Assets.xcassets */,
 				A0096B72218410A300827969 /* LaunchScreen.storyboard */,
-				A0096B75218410A300827969 /* Info.plist */,
-				A0096B76218410A300827969 /* main.m */,
 			);
 			path = RuitaiyuanSafeProject;
+			sourceTree = "<group>";
+		};
+		A04AB6222192E47D00B5D5E6 /* CommonLayer */ = {
+			isa = PBXGroup;
+			children = (
+				A04AB6232192E49400B5D5E6 /* Constants.h */,
+				A04AB6242192E51900B5D5E6 /* RTYColors.h */,
+			);
+			path = CommonLayer;
+			sourceTree = "<group>";
+		};
+		A04AB6252192FB5D00B5D5E6 /* LiveCall */ = {
+			isa = PBXGroup;
+			children = (
+				A04AB6262192FB7C00B5D5E6 /* RTYLiveCallViewController.h */,
+				A04AB6272192FB7C00B5D5E6 /* RTYLiveCallViewController.m */,
+			);
+			path = LiveCall;
+			sourceTree = "<group>";
+		};
+		A06C726D218AEEF400AE93ED /* Appdelegete */ = {
+			isa = PBXGroup;
+			children = (
+				A06C726E218AEEF400AE93ED /* AppDelegate.h */,
+				A06C7271218AEEF400AE93ED /* AppDelegate.m */,
+				64C234E621C0053D0073E12C /* RTYUserLoginVC.h */,
+				64C234E721C0053D0073E12C /* RTYUserLoginVC.m */,
+				A0A70D3021AF8CE100DB2B7F /* RuitaiyuanSafeProject.entitlements */,
+				A06C7270218AEEF400AE93ED /* main.m */,
+				A06C7272218AEEF400AE93ED /* Info.plist */,
+				A0FAF2A521BFCBAA0019A2EA /* RTYPreheaders.pch */,
+			);
+			path = Appdelegete;
+			sourceTree = "<group>";
+		};
+		A06C7274218AEEF400AE93ED /* UIKitCustomLayer */ = {
+			isa = PBXGroup;
+			children = (
+				A06C728F218AEF6D00AE93ED /* TabbarController */,
+				A06C728B218AEF3100AE93ED /* BaseController */,
+			);
+			path = UIKitCustomLayer;
+			sourceTree = "<group>";
+		};
+		A06C7275218AEEF400AE93ED /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				64012165219492310072A8B6 /* RTYNetWorkHosts.h */,
+				A06C7293218AF12D00AE93ED /* RTYRequestHandler.h */,
+				A06C7294218AF12D00AE93ED /* RTYRequestHandler.m */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		A06C7276218AEEF400AE93ED /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				A06C7277218AEEF400AE93ED /* ProjectCustomersFiles */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		A06C7277218AEEF400AE93ED /* ProjectCustomersFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A06C7278218AEEF400AE93ED /* 项目需求.rtf */,
+				A06C7279218AEEF400AE93ED /* 消防系统平台技术方案.docx */,
+			);
+			path = ProjectCustomersFiles;
+			sourceTree = "<group>";
+		};
+		A06C727A218AEEF400AE93ED /* BusinessLayer */ = {
+			isa = PBXGroup;
+			children = (
+				A0A0508521CEA10B00F903DB /* Solved */,
+				64C234E921C016380073E12C /* InformationCollector */,
+				A06C7280218AEEF400AE93ED /* HomeItem */,
+				A06C727B218AEEF400AE93ED /* ProfileItem */,
+			);
+			path = BusinessLayer;
+			sourceTree = "<group>";
+		};
+		A06C727B218AEEF400AE93ED /* ProfileItem */ = {
+			isa = PBXGroup;
+			children = (
+				A06C727C218AEEF400AE93ED /* Controller */,
+				A06C727D218AEEF400AE93ED /* Manager */,
+				A06C727E218AEEF400AE93ED /* Model */,
+				A06C727F218AEEF400AE93ED /* View */,
+			);
+			path = ProfileItem;
+			sourceTree = "<group>";
+		};
+		A06C727C218AEEF400AE93ED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A06C729C218AF17500AE93ED /* RTYMineViewController.h */,
+				A06C729D218AF17500AE93ED /* RTYMineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A06C727D218AEEF400AE93ED /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				A04AB61F2192E44500B5D5E6 /* RTYProfileManager.h */,
+				A04AB6202192E44500B5D5E6 /* RTYProfileManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		A06C727E218AEEF400AE93ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A04AB6192192E41D00B5D5E6 /* RTYProfileModel.h */,
+				A04AB61A2192E41D00B5D5E6 /* RTYProfileModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A06C727F218AEEF400AE93ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A04AB61C2192E43000B5D5E6 /* RTYProfileTopView.h */,
+				A04AB61D2192E43000B5D5E6 /* RTYProfileTopView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A06C7280218AEEF400AE93ED /* HomeItem */ = {
+			isa = PBXGroup;
+			children = (
+				A04AB6252192FB5D00B5D5E6 /* LiveCall */,
+				A06C7281218AEEF400AE93ED /* Controller */,
+				A06C7282218AEEF400AE93ED /* Manager */,
+				A06C7283218AEEF400AE93ED /* Model */,
+				A06C7284218AEEF400AE93ED /* View */,
+			);
+			path = HomeItem;
+			sourceTree = "<group>";
+		};
+		A06C7281218AEEF400AE93ED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A06C7299218AF16500AE93ED /* RTYHomeViewController.h */,
+				A06C729A218AF16500AE93ED /* RTYHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A06C7282218AEEF400AE93ED /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				A06C729F218AF4C300AE93ED /* RTYHomeManager.h */,
+				A06C72A0218AF4C300AE93ED /* RTYHomeManager.m */,
+				A0FA591421C0C94300D560A5 /* RTYLoginManager.h */,
+				A0FA591521C0C94300D560A5 /* RTYLoginManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		A06C7283218AEEF400AE93ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A04AB6132192E3E400B5D5E6 /* RTYHomeModel.h */,
+				A04AB6142192E3E400B5D5E6 /* RTYHomeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A06C7284218AEEF400AE93ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A04AB6162192E3FC00B5D5E6 /* RTYHomePageView.h */,
+				A04AB6172192E3FC00B5D5E6 /* RTYHomePageView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A06C728B218AEF3100AE93ED /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				A06C728C218AEF4A00AE93ED /* RTYBaseController.h */,
+				A06C728D218AEF4A00AE93ED /* RTYBaseController.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		A06C728F218AEF6D00AE93ED /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				A06C7290218AF0E500AE93ED /* RTYTabbarController.h */,
+				A06C7291218AF0E500AE93ED /* RTYTabbarController.m */,
+			);
+			path = TabbarController;
+			sourceTree = "<group>";
+		};
+		A0A0508521CEA10B00F903DB /* Solved */ = {
+			isa = PBXGroup;
+			children = (
+				A0A0508621CEA11D00F903DB /* Controller */,
+			);
+			path = Solved;
+			sourceTree = "<group>";
+		};
+		A0A0508621CEA11D00F903DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A0A0508721CEA13600F903DB /* RTYSolvedHomeController.h */,
+				A0A0508821CEA13600F903DB /* RTYSolvedHomeController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,6 +414,7 @@
 				A0096B61218410A200827969 /* Frameworks */,
 				A0096B62218410A200827969 /* Resources */,
 				F1312C9AD50295EA0B399003 /* [CP] Embed Pods Frameworks */,
+				080C48D1B5BA597B71CAFED8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +437,14 @@
 				TargetAttributes = {
 					A0096B63218410A200827969 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -155,8 +471,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A06C728A218AEEF400AE93ED /* 消防系统平台技术方案.docx in Resources */,
 				A0096B74218410A300827969 /* LaunchScreen.storyboard in Resources */,
 				A0096B71218410A300827969 /* Assets.xcassets in Resources */,
+				A06C7289218AEEF400AE93ED /* 项目需求.rtf in Resources */,
 				A0096B6F218410A200827969 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,6 +482,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		080C48D1B5BA597B71CAFED8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RuitaiyuanSafeProject/Pods-RuitaiyuanSafeProject-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RuitaiyuanSafeProject/Pods-RuitaiyuanSafeProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D8EA74E76DCE056FD74D63C1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -195,8 +537,8 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RuitaiyuanSafeProject/Pods-RuitaiyuanSafeProject-frameworks.sh",
-				"${PODS_ROOT}/PLRTCStreamingKit/Pod/Library/PLRTCStreamingKit.framework",
-				"${PODS_ROOT}/PLRTCStreamingKit/Pod/Library/HappyDNS.framework",
+				"${PODS_ROOT}/PLRTCStreamingKit/Pod/Library-Universal/PLRTCStreamingKit.framework",
+				"${PODS_ROOT}/PLRTCStreamingKit/Pod/Library-Universal/HappyDNS.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -217,9 +559,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0096B6C218410A200827969 /* ViewController.m in Sources */,
-				A0096B77218410A300827969 /* main.m in Sources */,
-				A0096B69218410A200827969 /* AppDelegate.m in Sources */,
+				A06C7295218AF12D00AE93ED /* RTYRequestHandler.m in Sources */,
+				A06C729E218AF17500AE93ED /* RTYMineViewController.m in Sources */,
+				A04AB6152192E3E400B5D5E6 /* RTYHomeModel.m in Sources */,
+				A0FA591621C0C94300D560A5 /* RTYLoginManager.m in Sources */,
+				A06C728E218AEF4A00AE93ED /* RTYBaseController.m in Sources */,
+				A06C729B218AF16500AE93ED /* RTYHomeViewController.m in Sources */,
+				A06C72A1218AF4C300AE93ED /* RTYHomeManager.m in Sources */,
+				64C234F021C016860073E12C /* RTYCollectorHomeVC.m in Sources */,
+				A04AB6182192E3FC00B5D5E6 /* RTYHomePageView.m in Sources */,
+				A04AB6212192E44500B5D5E6 /* RTYProfileManager.m in Sources */,
+				A06C7286218AEEF400AE93ED /* main.m in Sources */,
+				A0A0508921CEA13600F903DB /* RTYSolvedHomeController.m in Sources */,
+				A04AB61E2192E43000B5D5E6 /* RTYProfileTopView.m in Sources */,
+				64C234E821C0053D0073E12C /* RTYUserLoginVC.m in Sources */,
+				A04AB61B2192E41D00B5D5E6 /* RTYProfileModel.m in Sources */,
+				A06C7292218AF0E500AE93ED /* RTYTabbarController.m in Sources */,
+				A06C7287218AEEF400AE93ED /* AppDelegate.m in Sources */,
+				A04AB6282192FB7C00B5D5E6 /* RTYLiveCallViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +653,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -349,7 +706,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -362,11 +719,13 @@
 			baseConfigurationReference = FFCD922A3E5A84295A7BF97B /* Pods-RuitaiyuanSafeProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RuitaiyuanSafeProject/Appdelegete/RuitaiyuanSafeProject.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AG7FPKU77S;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = RuitaiyuanSafeProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RuitaiyuanSafeProject/Appdelegete/RTYPreheaders.pch";
+				INFOPLIST_FILE = RuitaiyuanSafeProject/Appdelegete/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -382,11 +741,13 @@
 			baseConfigurationReference = 36D69A1CB38424D44D70AFC7 /* Pods-RuitaiyuanSafeProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RuitaiyuanSafeProject/Appdelegete/RuitaiyuanSafeProject.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AG7FPKU77S;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = RuitaiyuanSafeProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RuitaiyuanSafeProject/Appdelegete/RTYPreheaders.pch";
+				INFOPLIST_FILE = RuitaiyuanSafeProject/Appdelegete/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

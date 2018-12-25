@@ -1,1 +1,1 @@
-../../../../PLRTCStreamingKit/Pod/Library/HappyDNS.framework/Headers/QNHijackingDetectWrapper.h
+../../../../PLRTCStreamingKit/Pod/Library-Universal/HappyDNS.framework/Headers/QNHijackingDetectWrapper.h

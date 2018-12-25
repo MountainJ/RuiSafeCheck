@@ -1,1 +1,1 @@
-../../../../PLRTCStreamingKit/Pod/Library/HappyDNS.framework/Headers/QNNetworkInfo.h
+../../../../PLRTCStreamingKit/Pod/Library-Universal/HappyDNS.framework/Headers/QNNetworkInfo.h

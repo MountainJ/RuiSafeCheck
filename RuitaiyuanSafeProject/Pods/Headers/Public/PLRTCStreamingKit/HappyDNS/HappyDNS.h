@@ -1,1 +1,1 @@
-../../../../PLRTCStreamingKit/Pod/Library/HappyDNS.framework/Headers/HappyDNS.h
+../../../../PLRTCStreamingKit/Pod/Library-Universal/HappyDNS.framework/Headers/HappyDNS.h
